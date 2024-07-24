@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nifty 50</title>
+</head>
+<body>
+    <h1>Nifty 50 Data</h1>
+    <div>
+        {% for item in nifty50_data %}
+            <div class="card">
+                <p>{{ item }}</p>
+            </div>
+        {% endfor %}
+    </div>
+</body>
+</html>
